@@ -1,0 +1,17 @@
+.title {
+  width: fit-content;
+}
+
+.skills {
+  list-style-type: none;
+
+  li::before {
+    content: "🤓";
+    margin-right: 5px;
+    color: #4caf50;
+  }
+}
+
+.github__link {
+  height: 400px;
+}
