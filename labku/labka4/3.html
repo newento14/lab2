@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    h1 {
+      text-align: center;
+      position: relative;
+    }
+
+    h1::before {
+      display: block;
+      position: absolute;
+      content: '';
+      height: 5px;
+      inset: 0;
+      margin: auto 0;
+      width: 47%;
+      background-color: black;
+    }
+
+    h1::after {
+      display: block;
+      position: absolute;
+      content: '';
+      height: 5px;
+      bottom: 0;
+      top: 0;
+      right: 0;
+      margin: auto 0;
+      width: 47%;
+      background-color: black;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Title</h1>
+</body>
+
+</html>
